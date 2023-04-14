@@ -20,8 +20,6 @@ export function Services() {
     ]
     return (
         <motion.div 
-            initial={{scaleX:0}}
-            whileInView={{scaleX:"100%"}}
             id="services"
             className="services-container origin-right rounded-l text-main w-full md:py-32 py-16 md:pl-16 md:pr-24 px-12 bg-dark-green"
         >
