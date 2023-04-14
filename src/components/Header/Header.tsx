@@ -41,7 +41,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="w-96 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Início</li>
+                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Início</li>
                 </Link>
                 <Link to="services"
                   spy={true}
@@ -51,7 +51,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="w-96 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Serviços</li>
+                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Serviços</li>
                 </Link>
                 <Link to="contact"
                   spy={true}
@@ -61,7 +61,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="w-96 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Contato</li>
+                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Contato</li>
                 </Link>
             </ul>
             <Social />

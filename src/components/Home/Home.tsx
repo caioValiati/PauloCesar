@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export function Home() {
   return (
     <div id="home" className="home-container w-full h-full pt-24 pb-16 lg:pr-0 pr-5 lg:flex  items-center">
@@ -10,9 +12,19 @@ export function Home() {
           Trabalho <b className="mark">bem feito</b> e com{" "}
           <b className="mark">pontualidade</b>
         </p>
-        <button className="bg-dark-green mt-5 hover:bg-dark-hover transition-all w-52 h-12 rounded text-main">
-          Me contate
-        </button>
+
+        <Link to="contact"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={50}
+                  duration={500}
+                  delay={100}
+        >
+          <button className="bg-dark-green mt-5 hover:bg-dark-hover transition-all w-52 h-12 rounded text-main">
+            Me contate
+          </button>
+        </Link>
       </div>
       <div className="perfil transition-all md:my-0 rounded-full lg:visible lg:w-fit md:invisible sm:invisible md:w-0  mt-16 flex justify-center">
     
