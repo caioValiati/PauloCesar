@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #5F5B40;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-color: #F4EBBE;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+svg {
+  width: 40vw;
+}
+  
+@media screen and (max-width: 800px) {
+  svg {
+    width: 80%;
+  }
+}
+
+.mark {
+  background: linear-gradient(#c9cc65a9, #c9cc65a9);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: all 0.2s;
+}
+
+
+.mark:hover {
+  background-size: 100% 40%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  cursor: pointer;
+}
