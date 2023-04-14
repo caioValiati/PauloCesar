@@ -32,7 +32,7 @@ export function Header() {
             }}
             className={`menu fixed flex flex-col justify-center items-center right-0 z-40 inset-y-0 md:w-96 w-3/4 h-full bg-menu`}
           >
-            <ul className="menu-options mb-48">
+            <ul className="menu-options w-full mb-48">
                 <Link to="home"
                   spy={true}
                   smooth={true}
@@ -41,7 +41,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Início</li>
+                  <li className="w-full cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Início</li>
                 </Link>
                 <Link to="services"
                   spy={true}
@@ -51,7 +51,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Serviços</li>
+                  <li className="w-full cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Serviços</li>
                 </Link>
                 <Link to="contact"
                   spy={true}
@@ -61,7 +61,7 @@ export function Header() {
                   duration={500}
                   delay={100}
                 >
-                  <li className="md:w-96 w-3/4 cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Contato</li>
+                  <li className="w-full cursor-pointer h-20 hover:bg-dark-green hover:text-main transition-all flex justify-center items-center  font-bold">Contato</li>
                 </Link>
             </ul>
             <Social />
