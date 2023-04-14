@@ -20,8 +20,6 @@ export function Services() {
     ]
     return (
         <motion.div 
-            initial={{x: 300}}
-            whileInView={{x:0}}
             id="services"
             className="services-container origin-right rounded-l text-main w-full md:py-32 py-16 md:pl-16 md:pr-24 px-12 bg-dark-green"
         >
